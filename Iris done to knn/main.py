@@ -54,7 +54,7 @@ class co:
             sorting(euk)
             euk2.append([i.name,euk[0][0],euk[1][0],euk[2][0],euk[3][0],euk[4][0]]) # 5 nearest neighbours
 
-        print(euk2)
+        return euk2
 
 
 def sorting(euk): #Reversed sorting with index
@@ -74,11 +74,6 @@ x = DataProcessing(data)
 x.shuffle()
 x.normalize()
 training, values = x.split()
-# for i in training:
-#     print(i)
+  
 newx=co(training)
 print(newx.euklides())
-l1=[[4,3434],[3,345],[2,34],[5,354435],[1,5]]
-l1=sorting(l1)
-print(l1)
-# newx.euklides()
