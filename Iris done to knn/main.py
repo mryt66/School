@@ -44,7 +44,7 @@ class co:
         self.list1 = l1.iloc[:, :-1] #self.list1 = l1.iloc[:, :-1]
 
 
-    def euklides(self):
+    def euklides(self) -> list:
         euk2 = []
         for i in self.list1.iloc: #for i in self.list1.iloc:
             euk = []
@@ -56,8 +56,8 @@ class co:
 
         return euk2
 
-
-def sorting(euk): #Reversed sorting with index
+#Reversed sorting with index
+def sorting(euk) -> list:
     for i in range(1,len(euk)):
         for j in range(1,len(euk)):
             if euk[j-1][1]<euk[j][1]:
@@ -74,6 +74,7 @@ x = DataProcessing(data)
 x.shuffle()
 x.normalize()
 training, values = x.split()
-  
+
+
 newx=co(training)
 print(newx.euklides())
