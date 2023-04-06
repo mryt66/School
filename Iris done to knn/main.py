@@ -44,7 +44,7 @@ class co:
         self.list1 = l1.iloc[:, :-1] #self.list1 = l1.iloc[:, :-1]
 
 
-    def euklides(self) -> list:
+    def euklides(self,k) -> list:
         euk2 = []
         for i in self.list1.iloc: #for i in self.list1.iloc:
             euk = []
@@ -52,7 +52,12 @@ class co:
                 euk.append([j.name,sqrt((Decimal(i[0]) - Decimal(j[0])) ** 2 + (Decimal(i[1]) - Decimal(j[1])) ** 2 + (
                     Decimal(i[2]) - Decimal(j[2])) ** 2 + (Decimal(i[3]) - Decimal(j[3])) ** 2)])
             sorting(euk)
-            euk2.append([i.name,euk[0][0],euk[1][0],euk[2][0],euk[3][0],euk[4][0]]) # 5 nearest neighbours
+            if k==2:
+                euk2.append([i.name+1, euk[0][0], euk[1][0]])  # 5 nearest neighbours
+            elif k==3:
+                euk2.append([i.name+1, euk[0][0], euk[1][0], euk[2][0]])  # 5 nearest neighbours
+            elif k==4:
+                euk2.append([i.name+1, euk[0][0], euk[1][0], euk[2][0], euk[3][0]])
 
         return euk2
 
@@ -75,6 +80,8 @@ x.shuffle()
 x.normalize()
 training, values = x.split()
 
+k=2 #how many neighbours (2-4)
+#for k=2 list looks like [[idoftarget,id_of_neighbour1,id_of_neighbour2]]
 
 newx=co(training)
-print(newx.euklides())
+print(newx.euklides(k))
