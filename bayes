@@ -2,6 +2,7 @@ import pandas
 import seaborn
 import numpy
 import random
+from math import e, pi
 from decimal import Decimal
 from math import sqrt
 
@@ -38,14 +39,16 @@ class DataProcessing:
         return listTrain, listVal
 
 rodzaje={"Virginica":1,"Versicolor":2,"Setosa":3}
-class co:
-    def __init__(self, list1):
+class bayes:
+    data=None
+    def __init__(self, list1, list2):
         self.list1 = list1
         l1 = self.list1
-        # self.list1 = l1.iloc[:, :-1] #self.list1 = l1.iloc[:, :-1]
+        self.list2 = list2
+        l2=self.list2
 
-    def bayes(self):
 
+    def avg_dev(self):
         Average=[]
         Deviation=[]
 
@@ -82,9 +85,35 @@ class co:
 
             #nie wiedziałem jak użyć tego wzorku,
             #więc zastosowałem gotową funkcje z biblioteki numpy
+
             Deviation.append([numpy.std(virlist),numpy.std(verlist),numpy.std(setlist)])
 
         return Average, Deviation
+
+    def baju(self, avg, dev):
+        listg = []
+        x=self.list2.iloc[2]
+
+
+        for i in range(4):
+            tmp = []
+            g=1
+            for j in range(3):
+                g = (e ** ((((-1 / 2) * (float(x[i]) - avg[i][j])) / dev[i][j]) ** 2)) / (dev[i][j] * sqrt(2 * pi))
+                tmp.append(g)
+            listg.append(tmp)
+        print(listg)
+        # [gvir1,gset1,gset1] [gvir2,gset2,gset2] [gvir3,gset3,gset3] [gvir4,gset4,gset4]
+
+        vir_stat = 1
+        ver_stat = 1
+        set_stat = 1
+        # mnożenie
+        for i in range(4):
+            vir_stat = vir_stat * listg[i][0]
+            ver_stat = ver_stat * listg[i][1]
+            set_stat = set_stat * listg[i][2]
+        return vir_stat, ver_stat, set_stat
 
 data = pandas.read_csv('iris.csv')
 data.describe()
@@ -95,12 +124,18 @@ x.shuffle()
 x.normalize()
 training, values = x.split()
 
-print(values)
-newx=co(values)
+print(training)
+newx=bayes(training,values)
 
-avg,dev=newx.bayes()
+avg,dev=newx.avg_dev()
 print(avg)
-print(dev)
+vir_stat,ver_stat,set_stat=newx.baju(avg,dev)
+
+
+
+
+
+
 
 
 
