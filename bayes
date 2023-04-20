@@ -60,13 +60,12 @@ class co:
             virlist = []
             verlist = []
             setlist = []
-
-
             for i in self.list1.iloc:
                 if i[4]=="Virginica":
                     ilvir+=1
                     tmpvir+=float(i[j])
                     virlist.append(float(i[j]))
+
                 elif i[4]=="Versicolor":
                     ilver+=1
                     tmpver +=float(i[j])
@@ -76,22 +75,16 @@ class co:
                     tmpset += float(i[j])
                     setlist.append(float(i[j]))
 
-            virlist=numpy.array(virlist)
-            verlist=numpy.array(verlist)
-            setlist=numpy.array(setlist)
-            #np.std
-#!!!!!!!!STD
-        tmpvir = round((tmpvir / ilvir),4)
+            tmpvir = round((tmpvir / ilvir),4)
             tmpver = round((tmpver / ilver),4)
             tmpset = round((tmpset / ilset),4)
-
             Average.append([tmpvir,tmpver,tmpset])
-            #index 0 to sepal.length
-            #index 1 to sepal.width
-            #index 2 to petal.length
-            #index 3 to petal.width
 
-        return Average
+            #nie wiedziałem jak użyć tego wzorku,
+            #więc zastosowałem gotową funkcje z biblioteki numpy
+            Deviation.append([numpy.std(virlist),numpy.std(verlist),numpy.std(setlist)])
+
+        return Average, Deviation
 
 data = pandas.read_csv('iris.csv')
 data.describe()
@@ -105,6 +98,10 @@ training, values = x.split()
 print(values)
 newx=co(values)
 
-print(newx.bayes())
-print(len(newx.bayes()))
+avg,dev=newx.bayes()
+print(avg)
+print(dev)
+
+
+
 
