@@ -1,0 +1,3 @@
+233
+111
+('Liczby ', 233, ' i ', 111, ' nie sa zaprzyjaznione')
