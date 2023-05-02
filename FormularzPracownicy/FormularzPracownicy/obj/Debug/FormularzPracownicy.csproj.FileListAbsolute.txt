@@ -1,0 +1,42 @@
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.exe.config
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.exe
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.pdb
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.AssemblyReference.cache
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.SuggestedBindingRedirects.cache
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.Properties.Resources.resources
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.GenerateResource.cache
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.CoreCompileInputs.cache
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.exe
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.pdb
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicy\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.View.Form1.resources
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.exe.config
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.exe
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.pdb
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.AssemblyReference.cache
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.SuggestedBindingRedirects.cache
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.View.Form1.resources
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.Properties.Resources.resources
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.GenerateResource.cache
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.CoreCompileInputs.cache
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.exe
+E:\Studia\3. Programowanie obiektowe i graficzne\lab\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.pdb
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.exe.config
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.exe
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.pdb
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.AssemblyReference.cache
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.View.Form1.resources
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.Properties.Resources.resources
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.GenerateResource.cache
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.CoreCompileInputs.cache
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.exe
+C:\Users\Marcin\Downloads\formularzpracownicyMVP\formularzpracownicyMVP\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.pdb
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.exe.config
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.exe
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\bin\Debug\FormularzPracownicy.pdb
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.AssemblyReference.cache
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.View.Form1.resources
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.Properties.Resources.resources
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.GenerateResource.cache
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.csproj.CoreCompileInputs.cache
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.exe
+C:\Users\student\Downloads\FormularzPracownicy\FormularzPracownicy\FormularzPracownicy\obj\Debug\FormularzPracownicy.pdb

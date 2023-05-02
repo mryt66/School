@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employee>
+    <Name />
+    <Surname />
+    <Birthdate>2023-04-14T00:00:00+02:00</Birthdate>
+    <Salary>4000</Salary>
+    <Contract>prace</Contract>
+    <Position>Lekarz</Position>
+  </Employee>
+  <Employee>
+    <Name>cos</Name>
+    <Surname>s</Surname>
+    <Birthdate>2023-04-14T11:27:18.700386+02:00</Birthdate>
+    <Salary>4000</Salary>
+    <Contract>b2b</Contract>
+    <Position>Lekarz</Position>
+  </Employee>
+  <Employee>
+    <Name>costam</Name>
+    <Surname>sssdsdasd</Surname>
+    <Birthdate>2023-04-14T11:27:46.197627+02:00</Birthdate>
+    <Salary>4000</Salary>
+    <Contract>prace</Contract>
+    <Position>Lekarz</Position>
+  </Employee>
+</ArrayOfEmployee>
